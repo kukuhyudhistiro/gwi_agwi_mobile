@@ -1,0 +1,4 @@
+-keep class org.opencv.** { *; }
+-dontwarn org.opencv.**
+-keepclasseswithmembernames class * { native <methods>; }
+-keep class com.kukuh.agwi.processing.GwiNativeBridge { *; }
